@@ -146,6 +146,9 @@ export const trackChangesPlugin = (
         fixInconsistentChanges(pluginState.changeSet, userID, createdTr, oldState.schema)
       if (changed) {
         log.warn('had to fix inconsistent changes in', createdTr)
+      } else {
+        // temp log to test patch-package
+        log.info('no inconsistencies found')
       }
       if (docChanged || createdTr.docChanged || changed) {
         createdTr.setMeta('origin', trackChangesPluginKey)
