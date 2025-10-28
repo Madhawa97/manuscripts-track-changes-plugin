@@ -1,3 +1,9 @@
+# @monnvil/track-changes-plugin
+
+> This is a fork of [Atypon-OpenSource/manuscripts-track-changes-plugin](https://github.com/Atypon-OpenSource/manuscripts-track-changes-plugin) with some fixes in track changes behavior. (Created with the main purpose of testing patch-package library.)
+
+For the original, see: https://github.com/Atypon-OpenSource/manuscripts-track-changes-plugin
+
 # [@manuscripts/track-changes-plugin](https://github.com/Atypon-OpenSource/manuscripts-quarterback/tree/main/quarterback-packages/track-changes-plugin)
 
 ProseMirror plugin designed to track changes within a document, similar to the track changes functionality found in Google Docs or Microsoft Word. It allows for the tracking of insertions and deletions of nodes, text and node attributes, preserving information about past changes using dataTracked attributes on nodes.
